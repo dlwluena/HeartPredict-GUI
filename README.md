@@ -29,11 +29,11 @@ The model was evaluated using a Confusion Matrix to ensure clinical reliability:
 
 ## Tech Stack
 
-* **Core: Python 3.13
-* **Deep Learning: TensorFlow 2.x, Keras
-* **Data Analysis: Pandas, NumPy, Scikit-learn
-* **UI Framework: PySide6 (Qt for Python)
-* **Documentation: LaTeX (Mathematical reporting)
+* **Core:** Python 3.13
+* **Deep Learning:** TensorFlow 2.x, Keras
+* **Data Analysis**: Pandas, NumPy, Scikit-learn
+* **UI Framework:** PySide6 (Qt for Python)
+* **Documentation:** LaTeX (Mathematical reporting)
 
 ## Project Structure
 ```plaintext
@@ -46,11 +46,11 @@ The model was evaluated using a Confusion Matrix to ensure clinical reliability:
 ```
 
 ## How to Use
-1. Installation:
+**1. Installation:**
 ```bash
 pip install -r requirements.txt
 ```
-2. Launch the System:
+**2. Launch the System:**
 ```bash
 python gui.py
 ```
