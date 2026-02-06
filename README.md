@@ -76,6 +76,12 @@ pip install -r requirements.txt
 ```bash
 python gui.py
 ```
+## How to Run
+
+1. Clone the repo: `git clone https://github.com/dlwluena/HeartPredict-GUI.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the dashboard: `python gui.py`
+
 ## Performance Analysis
 In medical prognosis, accuracy is not the only metric. We focus on the Confusion Matrix to minimize "False Negatives," ensuring that high-risk patients are not overlooked by the system.
 
