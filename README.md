@@ -5,6 +5,28 @@ An advanced Artificial Neural Network (ANN) expert system designed to predict ca
 ## Overview
 The HeartPredict AI system processes 13 specific clinical parameters (e.g., age, cholesterol levels, EKG results) to calculate a patient's risk probability. Unlike traditional linear models, this system utilizes a non-linear Deep Learning architecture to capture complex medical patterns.
 
+## Demo & Usage Example
+
+Below is a sample prediction based on a hypothetical patient scenario. This demonstration shows how the AI model processes medical parameters to assess cardiovascular risk.
+
+### **Sample Patient Profile**
+| Feature | Value | Feature | Value |
+| :--- | :--- | :--- | :--- |
+| **Age** | 25 | **Max Heart Rate** | 156 |
+| **Sex** | 0 (Female) | **Exercise Angina** | 0 (No) |
+| **Chest Pain Type** | 1 | **Oldpeak** | 5.6 |
+| **Rest Blood Pressure**| 78 | **ST Slope** | 2 |
+| **Cholesterol** | 178 | **Vessels (CA)** | 2 |
+| **Fasting Blood Sugar**| 1 | **Thal Result** | 6 |
+| **Rest ECG** | 2 | | |
+
+### **Prediction Result**
+The dashboard visualizes the AI's analysis in real-time. For the parameters above, the model predicted:
+**Condition Normal: 16.5% Risk Probability**
+
+<img width="592" height="890" alt="image" src="https://github.com/user-attachments/assets/9b53ca80-a019-496b-a88a-c726afc032ef" />
+
+
 ## Key Achievements:
 
 * **Accuracy:** Achieved 90.00% test accuracy.
